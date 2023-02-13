@@ -11,4 +11,12 @@ export const GlobalStyle = createGlobalStyle`
     body {
         font-family: sans-serif;
     }
+
+    button {
+        padding: 10px 25px;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
 `;

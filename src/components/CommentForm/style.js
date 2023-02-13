@@ -17,12 +17,7 @@ export const CommentFormContainer = styled.div`
   }
 
   form button {
-    padding: 10px 25px;
     background-color: #1870d5;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
   }
   form button:hover {
     background-color: #1357a6;

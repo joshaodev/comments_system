@@ -36,7 +36,7 @@ function CommentForm({ addComment }) {
             type="text"
             name="user"
             id="user"
-            placeholder="Nome"
+            placeholder="User"
             value={comment.user || ""}
             onChange={handleChange}
           />
@@ -47,13 +47,13 @@ function CommentForm({ addComment }) {
             id="content"
             cols="30"
             rows="10"
-            placeholder="Comentário..."
+            placeholder="Comment..."
             required
             value={comment.content || ""}
             onChange={handleChange}
           ></textarea>
         </div>
-        <button type="submit">Comentar</button>
+        <button type="submit">Comment</button>
       </form>
     </CommentFormContainer>
   );

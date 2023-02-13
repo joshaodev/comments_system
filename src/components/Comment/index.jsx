@@ -8,12 +8,10 @@ function Comment({ comment, commentIndex, deleteComment }) {
   return (
     <CommentContainer>
       <p>
-        Autor: <span>{comment.user}</span>
+        Author: <span>{comment.user}</span>
       </p>
       <p>{comment.content}</p>
-      <a href="#" onClick={handleClick}>
-        Excluir
-      </a>
+      <button onClick={handleClick}>Delete</button>
     </CommentContainer>
   );
 }
