@@ -14,4 +14,4 @@ This system was based on the video [VueJS em 1 hora! (Teoria e prática)](https:
 
 As a beginner, I'm open to contributions for tips, recommendations, and improvements.
 
-⌨️ por [Josemar Oatanha](https://gist.github.com/joshaodev) 🤓
+⌨️ by [Josemar Oatanha](https://gist.github.com/joshaodev) 🤓
